@@ -14,8 +14,9 @@ import math
 
 eta = 0.0009  # eta = 1 = perfect detection
 n = 2		# number of pixels
-b = 1.995		# number of pixels that need to fire for a detection event
+b = 2		# number of pixels that need to fire for a detection event
 f = 1000000 # frequency of input pulses
+
 
 inputFluxes = np.array([15.45842,38.8298,97.53604,244.99946,615.41081,1545.84206,3882.9797,9753.60401,24499.94558,61541.08088,154584.20604,388297.96969,975360.40144,2.45E+006,6.15E+006,1.55E+007,3.88E+007,9.75E+007,2.45E+008,6.15E+008,1.55E+009,3.88E+009,9.75E+009,2.45E+010,6.15E+010])
 experimentalCounts = np.array([0,0,0,0,0,1,0,2,2,2,2,3,6,13,56,218,1253,6358,29384,101638,285965,656111,962296,998279,1.01E+006])/f #two-photon
