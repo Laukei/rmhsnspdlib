@@ -99,4 +99,4 @@ def write_dataset(dataset,filename):
 if __name__ == "__main__":
 	p = PulseGenerator()
 	dataset = create_dataset(p,ITERATIONS,125)
-	write_dataset(dataset,OUTPUT)
+	#write_dataset(dataset,OUTPUT)
